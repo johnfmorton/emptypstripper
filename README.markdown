@@ -12,8 +12,10 @@ There is one function called 'stripMyPsPlease' to the 'emptypstripper' plug in c
 
 To use it, wrap it around the content you want to be stripped of empty P tags, like this:
 
+<pre>
 {exp:emptypstripper:stripMyPsPlease}{wygym_content}{/exp:emptypstripper:stripMyPsPlease}
+</pre>
 
 Voilà. 
 
-There will be no empty <p> tag pairs anymore.
+There will be no empty &lt;p&gt; tag pairs anymore.
