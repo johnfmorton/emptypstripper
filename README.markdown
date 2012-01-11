@@ -6,7 +6,7 @@ I took my SuperGeekery Tag Stripper and did a variation of it for this purpose. 
 
 ## Installaion
 
-To install this plug in, make a directory by the name of "emptypstripper" and place this file inside of it. 
+To install this plug in, make a directory by the name of "emptypstripper" and place the file "pi.emptypstripper.php" inside of it. 
 
 Place the "emptypstripper" directory in the "/system/expressionengine/thirdparty/" directory in your Expression Engine installation.
 
