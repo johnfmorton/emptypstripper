@@ -40,7 +40,6 @@ var $return_data = "";
 	
 	function stripMyPsPlease($str = '')
 	{
-		$escapeChar = $this->EE->TMPL->fetch_param('escapeHTMLchars');
 		if ($str == '')
 	    {
 	      $str = $this->EE->TMPL->tagdata;
@@ -50,11 +49,6 @@ var $return_data = "";
 		$replacements = '';
 		
 		$result = preg_replace($patterns, $replacements, $str);
-		
-		if ($escapeChar)
-		{
-			$result = htmlspecialchars($result, ENT_QUOTES);
-		}
 		
 		return $result;
 	}
@@ -89,7 +83,6 @@ var $return_data = "";
 	
 	
 	<p>This is a paragraph of text.</p> 
-	<hr>
 	
 		
 	<?php
@@ -100,7 +93,7 @@ var $return_data = "";
 	return $buffer;
 	}
 
-} // END Tagstripper class
+} // END Emptypstripper class
 
 /* End of file pi.tagstripper.php */ 
 /* Location: ./system/expressionengine/third_party/emptypstripper/pi.emptypstripper.php */
