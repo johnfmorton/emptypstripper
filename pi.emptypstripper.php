@@ -6,7 +6,7 @@
 SuperGeekery Empty P Stripper
 a plug-in for ExpressionEngine 2
 by John Morton
-v1.00
+v1.01
 
 =====================================================
 
@@ -26,7 +26,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $plugin_info = array(
 						'pi_name'			=> 'SuperGeekery Empty P Stripper',
-						'pi_version'		=> '1.0.0',
+						'pi_version'		=> '1.0.1',
 						'pi_author'			=> 'John Morton',
 						'pi_author_url'		=> 'http://supergeekery.com/',
 						'pi_description'	=> 'WYGWAM\'s empty P tags are a form of digital hoarding. Get rid of them.',
