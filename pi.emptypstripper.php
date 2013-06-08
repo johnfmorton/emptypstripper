@@ -12,7 +12,7 @@ v1.01
 
 Change log
 
-v. 1.0.1 (J08JUNE2013)
+v. 1.0.1 (08JUNE2013)
 
 Updated regex to more accurately capture ONLY the full "&nbsp;" instead of any character in a set of "n" "b" "s" "p".
 
